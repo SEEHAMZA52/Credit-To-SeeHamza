@@ -1,0 +1,11 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Slap Battles")
+
+
+local Tab1 = PhantomForcesWindow:NewSection("Fe Radio")
+local Tab = PhantomForcesWindow:NewSection("Credits To SeeHamza")
+Tab1:CreateToggle("Click Fe Glove Radio", function(value)
+loadstring(game:HttpGet('https://pastefy.app/S7xNJSXX/raw'))()execute("Script8")
+print(1)
+end)
